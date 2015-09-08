@@ -1,0 +1,19 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	It helped greatly because it points out the lines where things have changed. So I can figure out where to look quickly, and don't have to carefully scan through every letter in the program.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	Having access would make it very easy to return to a 'safe point', like if something went wrong or the program stopped working. You could resort back to the last known time it was working correctly and go from there. Rather than having to reread the code every time to try and find the errors, you can just resort back and kind of start fresh.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Automatic commits can become very arbitrary and not have as much meaning. While it can help by auto saving for you, it will not always be at an ideal time. Manual commits will always have some intention behind them and therefore give them meaning and be easier to understand.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Because Git is built to work with code, and more often than not, programs will use more than 1 file to properly run. So being able to track all the files simultaneously makes it easy to go back and see exactly what all was changed between the files, rather than searching for 1 at a time like on Google Docs.
+
+How might using version control make you more confident to make changes that could break something?
+
+	By using version control, I can have full confidence that I can return my code to a state where it was working correctly, giving me the freedom to try things I am unsure of, maybe "risky" code. Even if it doesn't work, I can just go back to the previous version and try again.
